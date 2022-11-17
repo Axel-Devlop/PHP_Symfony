@@ -1,0 +1,15 @@
+Fichers ajoutés en plus :
+
+
+composer.phar => installation manuel de composer.phar (j'ai retiré le .phar pour faciliter les commandes en terminal)
+
+symfony.exe => installation manuel de CLI
+
+.php-version => configurer quelle version de PHP est utilisée par symfony (commande utile pour ça : .\symfony.exe local:php:list) 
+
+Les annotations ne sont disponible qu'à partir de PHP 8.1, avant pour les routes : il faut utiliser les attributes dans le Controller
+    ou directement dans le fichier config/routes.yaml 
+
+
+Ne pas oublier de mettre ces fichers dans le .gitignore pour ne pas les commits (le .php-version c'est comme on veux)
+
